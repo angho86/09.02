@@ -1,0 +1,91 @@
+#testimonial {
+    background-color: rgba(255, 194, 18, 0.25);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+
+    .container h6 {
+        color: var(--tamsi-spalva);
+        font-family: "manos riftas medium";
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .container h2 {
+        font-family: "mano sriftas medium";
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.3;
+        margin-top: 18px;
+    }
+
+    .container p {
+        color: #6c757d;
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: "Mandali", sans-serif;
+        width: 456px;
+        margin: 0 auto;
+    }
+
+    .container .client-feedback-box {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 50px;
+        margin-top: 50px;
+    }
+
+    .container .client-feedback-block {
+        width: 300px;
+        margin-right: 18px;
+        padding: 24px;
+        text-align: start;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px 10px #F5E6BD;
+    }
+
+    .container .client-feedback-block .client-img {
+        width: 60px;
+        height: 60px;
+        border: 0;
+        border-radius: 50px;
+    }
+
+    .container .client-feedback-block h5 {
+        font-size: 18px;
+        font-family: "mano sriftas medium";
+        line-height: 1.5;
+        font-weight: 500;
+        margin: 24px 0;
+        padding: 8px 0 0;
+
+    }
+
+    .container .client-feedback-block h6 {
+        font-family: "Mandali", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .container .client-feedback-block p {
+        color: #6c757d;
+        line-height: 1.7;
+    }
+
+    .container .dots {
+        width: 100%;
+        color: #b5aa8a;
+        letter-spacing: 5px;
+        transform: scale(1.2, 1.2);
+
+    }
+
+    .container .dots .dark-dot {
+        color: var(--tamsi-spalva)
+    }
+
+}
