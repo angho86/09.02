@@ -1,0 +1,139 @@
+
+/*      Subscribe section                */
+
+footer {
+    .container .subscribe {
+        background-image: url(../assets/img/cta-bg.png);
+        background-color: #343a40;
+        height: 231px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: 48px;    
+    }
+
+    .container .subscribe .subscribe-text {
+        padding: 0 12px;
+        max-width: 50%;
+        align-items: center;
+        
+    }
+
+    .container .subscribe .subscribe-text h3{
+        color:#FFF;
+        font-size: 35px;
+        font-family: "mano sriftas medium";
+        font-weight: 500;
+        line-height: 1.2;
+        
+    }
+
+    .container .subscribe .subscribe-text p{
+        color: #FFF;
+        line-height: 1.7;
+        font-family: "Mandali", sans-serif;
+        font-size: 16px;
+        padding: 0 0 50px;
+    }
+
+    .container .subscribe .subscribe-input {
+        position: relative;
+    }
+
+    .container .subscribe .subscribe-input .input{
+        background-color: rgba(255, 255, 255, 0.12);
+        padding: 16px 150px 16px 70px;
+        min-height: 62px;
+        border-radius: 4px;
+        border: transparent;
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .container .subscribe .mail-icon {
+        height: 50px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        transform: translateY(-50%);
+        /* background-color: #fff; */
+        opacity: .3;
+        font-size: 20px;
+    }
+
+    .container .subscribe .subscribe-input .button {
+        background-color: var(--akcentuojama-spalva);
+        border: transparent;
+        border-radius: 5px;
+        color: #fff;
+        padding: 8px 24px;
+        font-size: 16px;
+        font-family: "Mandali", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        vertical-align: middle;
+        transform: all 0.5s;
+        cursor: pointer;
+        position: absolute;
+        left: 223px;
+        bottom: 5px;
+        height: 50px;
+        width: 150px;
+    }
+
+}
+
+/*              Footer navigation columns                */
+
+footer {
+
+    .footer-nav {
+        background-image: url("../assets/img/footer-light-bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        display: flex;
+        justify-content: space-between;
+        padding: 130px 0 50px;
+        font-family: "Mandali", sans-serif;
+        font-size: 16px;
+        color: #343a40;
+
+        .footer-nav-block {
+            width: 25%;
+            font-family: "Mandali", sans-serif;
+            font-size: 16px;
+            color: #343a40;
+
+            .column-title {
+                color: #343a40;
+                line-height: 1.2;
+                font-size: 22px;
+                font-family: "Cerebri Sans,sans-serif";
+                font-weight: 600;
+                margin-bottom: 20px;
+
+            }
+
+            ul {
+                list-style: none;
+                
+                
+            }
+            
+            li{
+                padding: 6px 0;
+                color: #6c757d;
+            }
+
+            li a{
+                color: #6c757d;
+                font-family: "Mandali", sans-serif;
+                font-size: 16px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mandali", sans-serif;
+}
+
+:root {
+	--tamsi-spalva: #343a40;
+	--akcentuojama-spalva: #1ce1ac;
+}
+
+@font-face {
+	font-family: "mano sriftas medium";
+	src: url("../assets/Cerebri-Sans/CerebriSans-Medium.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: "mano sriftas bold";
+	src: url("../assets/Cerebri.Sans.Pro/CerebriSans-Bold.ttf")
+		format("truetype");
+}
+@font-face {
+	font-family: "mano sriftas semibold";
+	src: url("../assets/Cerebri.Sans.Pro/CerebriSans-SemiBold.ttf")
+		format("truetype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "mano sriftas medium";
+	color: var(--tamsi-spalva);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
