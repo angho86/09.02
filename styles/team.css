@@ -1,0 +1,72 @@
+#team {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+
+    .container h6{
+      color: #6C757D;
+      font-size: 16px;
+      font-family: "mano sriftas medium"; 
+      font-weight: 500;
+      line-height: 1.2; 
+      margin: 0 0 8px;
+    }
+
+    .container h2 {
+        margin: 18px 0 8px;
+        color: var(--tamsi-spalva);
+        font-size: 30px;
+        font-family: "mano sriftas medium";
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .container p {
+        color: #6C757D;
+        font-size: 16px;
+        font-family: "Mandali", sans-serif;
+        line-height: 1.7;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        width: 456px;
+    }
+
+    .container .team-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .container .team-row .team-block {
+        display: flex;
+        flex-direction: column;  
+        /* align-items: center; */
+        width: 25%;
+        padding: 0 12px;
+        text-align: left;
+        
+    }
+
+    .container .team-row .team-block .member {
+        height: auto;
+        width: 300px;
+        background-color: #F2F4F6;
+    }
+
+    .container .team-row .team-block h5 {
+        text-align: left;
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: "mano sriftas medium";
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .container .team-row .team-block p {
+        color: #6C757D;
+        font-size: 16px;
+        font-family: "Mandali", sans-serif;
+        line-height: 1.7;
+    }
+}

@@ -1,0 +1,32 @@
+#statistics{
+    background-color: #F8F9FA;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+    .container .stat-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container .stat-row .stat-block {
+        box-sizing: border-box;
+        width: 22%;
+        text-align: center;
+    }
+
+    .container .stat-row .stat-block h2 {
+        margin: 0 0 8px;
+        font-size: 31px;
+        font-family: "mano sriftas medium";
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .container .stat-row .stat-block p {
+        line-height: 1.7;
+        color: #6c757d;
+        font-size: 16px;
+        font-family: "Mandali", sans-serif;
+        margin-top: 10px;
+    }
+}
